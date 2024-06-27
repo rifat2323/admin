@@ -1,0 +1,19 @@
+.MuiPagination-ul{
+    justify-content: center;
+}
+.mainUser{
+    scroll-behavior: smooth;
+    scrollbar-color: rgba(235, 227, 123, 0.644);
+    scrollbar-width: 2px;
+    scroll-snap-type: mandatory;
+}
+.mainUser::-webkit-scrollbar{
+     width: 8px;
+}
+.mainUser::-webkit-scrollbar-track{
+    background: transparent;
+}
+.mainUser::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background: #cccccccb;
+}

@@ -1,0 +1,20 @@
+#root {
+  width: 100%;
+  margin: 0 ;
+  padding: 0;
+
+}
+
+html::-webkit-scrollbar{
+  width: none;
+}
+html::-webkit-scrollbar-track{
+  background: transparent;
+  width: none;
+}
+html::-webkit-scrollbar-thumb{
+  width: none;
+}
+html{
+  scrollbar-width: none;
+}

@@ -1,0 +1,35 @@
+.mainDiv{
+    display: flex;
+    width: 100%;
+    min-height: 100dvh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.form .inputs{
+    border: none;
+    outline: 1px solid #222222bb;
+    border-radius: 4px;
+    flex: 1 1 120px;
+    height: 40px;
+    transition: outline 200ms ease-in;
+    background: transparent;
+    color: #000;
+ 
+}
+.form .inputs:focus {
+    outline: 2px solid #111;
+}
+.input{
+    width: 100%;
+    flex:90px;
+    outline: none;
+    border: none;
+}

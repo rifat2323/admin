@@ -1,0 +1,83 @@
+.topHome{
+    width: 100%;
+   height: auto;
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.todasSales{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    box-shadow: 0px  1px 1px 0px rgba(0,0,0,0.1);
+    padding:  10px 2%;
+    border-radius: 8px;
+    min-height: 300px;
+    background: white;
+}
+.topSlaesCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    width: 100%;
+    flex-wrap: wrap;
+    height: auto;
+}
+.topSlaesCardone{
+    width: 150px;
+    height: 160px;
+  
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+    align-items: flex-start;
+    padding: 8px 1.8%;
+}
+.colorsCard1{
+    background: rgba(230, 168, 53, 0.158);
+}
+.colorsCard2{
+ background: rgba(238, 130, 238, 0.171);
+}
+.colorsCard3{
+    background: rgba(172, 255, 47, 0.212);
+}
+.colorsCard4{
+background: rgba(128, 0, 128, 0.055);
+}
+.topCharts{
+    width: 40%;
+    box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.1);
+    padding: 10px 2%;
+    border-radius: 8px;
+    background: white;
+}
+.topText{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+}
+@media (max-width:1200px) {
+    .topHome{
+        flex-direction: column;
+    }
+    .todasSales{
+        width: 100%;
+    }
+    .topCharts{
+        width: 100%;
+    }
+    .chartIwidthHeight{
+        width: 100%;
+      
+    }
+}

@@ -1,0 +1,71 @@
+.main{
+   width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow-x: auto;
+  padding: 5px 6px;
+}
+.main{
+    scroll-behavior: smooth;
+    scrollbar-color: rgba(235, 227, 123, 0.644);
+    scrollbar-width: 2px;
+    scroll-snap-type: mandatory;
+}
+.main::-webkit-scrollbar{
+     width: 8px;
+}
+.main::-webkit-scrollbar-track{
+    background: transparent;
+}
+.main::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background: #cccccccb;
+}
+
+.header{
+    color: rgba(0, 0, 0, 0.801);
+    font-size: clamp(10px, 4vw, 36px);
+}
+.navbars{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.navbars ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.active{
+    color: black !important; 
+}
+.navbars ul li{
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 300ms;
+    color: #11111173;
+    position: relative;
+    
+
+}
+.navbars ul li:hover,.navbars ul li:focus {
+    color: rgba(10, 10, 10, 0.877);
+}
+
+.active::before{
+    position: absolute;
+    content: '';
+    bottom: 0;
+    width: 100%;
+    height: 3px;
+    border-radius: 4px;
+    background: #333;
+    color: #000;
+}

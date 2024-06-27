@@ -1,0 +1,40 @@
+.MidHome{
+    display: flex;
+    width: 100%;
+    padding:  20px 15px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 30px;
+}
+.barChart1{
+    width: 40%;
+    box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.1);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 8px;
+    background: white;
+}
+.lineChart2{
+    width: 30%;
+    box-shadow: 0px 7px 17px -3px rgba(0,0,0,0.1);
+    padding: 10px;
+    border-radius: 8px;
+}
+.barChat2{
+    width: 30%;
+    box-shadow: 0px 7px 17px -3px rgba(0,0,0,0.1);
+    padding: 10px;
+    border-radius: 8px;
+}
+@media (max-width:900px) {
+    .MidHome{
+    flex-direction: column;
+    }
+    .MidHome > *{
+        width: 100%;
+    }
+}
